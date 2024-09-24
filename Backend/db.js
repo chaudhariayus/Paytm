@@ -4,7 +4,7 @@ const express=require("express");
 
 const mongo=require("mongoose");
 
-mongo.connect("mongodb+srv://admin:FflqG3iJNJPdT9ip@cluster0.usoctxe.mongodb.net/Paytm")
+mongo.connect("mongodb+srv://Paytm")
 
 
 const User=mongo.model('User',{
